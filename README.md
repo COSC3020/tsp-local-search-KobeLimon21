@@ -50,3 +50,22 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+
+The worst case time complexity for my implemendation is $O(n^3)$. The outer loop in maxIterations iterates at n^2 as this is the amount of iterations that will be completed. With each iteration of the loop, there are multiple things going on such as calculate route length, where it iterates over the cities which simplifies down to n, the two opt portion in the worst case would have to go all through the cities which is just n  and the copy route which also iterates n cities. This is a total complexity of  n * n^2 or $O(n^3)$. 
+
+
+The worst case memory complexity is $O(n)$. The temporary arrays are $O(n)$ , so this comes out to a total complexity of $O(n)$. 
+
+
+
+Sources:
+
+
+https://leeds-faculty.colorado.edu/glover/Publications/TSP.pdf - illustrations here were very helpful to gain an understanding 
+
+https://github.com/COSC3020/tsp-local-search-kbuss26 - looked at this implementation
+
+https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle 
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
