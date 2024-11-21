@@ -57,4 +57,8 @@ Sources:
 
 https://leeds-faculty.colorado.edu/glover/Publications/TSP.pdf - illustrations here were very helpful to gain an understanding 
 
-https://github.com/COSC3020/tsp-local-search-kbuss26 - looked at this implemtation 
+https://github.com/COSC3020/tsp-local-search-kbuss26 - looked at this implementation
+
+https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle 
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
