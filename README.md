@@ -53,7 +53,14 @@ reasoning, to this markdown file.
 
 
 
+
+
+The worst case memory complexity is dominated by the matrix, as we have our distance matrix and our arrays to account for. The matrix is $O(n^2)$ and the temporary arrays are $O(n)$ , so this comes out to a total complexity of $O(n^2)$ as we can ignore the array complexity. 
+
+
+
 Sources:
+
 
 https://leeds-faculty.colorado.edu/glover/Publications/TSP.pdf - illustrations here were very helpful to gain an understanding 
 
