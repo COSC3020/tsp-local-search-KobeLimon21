@@ -50,3 +50,11 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+
+
+Sources:
+
+https://leeds-faculty.colorado.edu/glover/Publications/TSP.pdf - illustrations here were very helpful to gain an understanding 
+
+https://github.com/COSC3020/tsp-local-search-kbuss26 - looked at this implemtation 
