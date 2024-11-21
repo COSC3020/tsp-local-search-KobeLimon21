@@ -52,7 +52,7 @@ is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
 
 
-
+The worst case time complexity for my implemendation is $O(n^3)$. The outer loop in maxIterations iterates at n^2 as this is the amount of iterations that will be completed. With each iteration of the loop, there are multiple things going on such as calculate route length, where it iterates over the cities which simplifies down to n, the two opt portion in the worst case would have to go all through the cities which is just n  and the copy route which also iterates n cities. This is a total complexity of  n * n^2 or $O(n^3)$. 
 
 
 The worst case memory complexity is dominated by the matrix, as we have our distance matrix and our arrays to account for. The matrix is $O(n^2)$ and the temporary arrays are $O(n)$ , so this comes out to a total complexity of $O(n^2)$ as we can ignore the array complexity. 
